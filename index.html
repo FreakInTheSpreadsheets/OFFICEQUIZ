@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,6 +14,7 @@
         <div id="current-score">Current Score: <span id="score">0</span></div> 
         <div id="start">
             <button id="start-btn">Press Here "That's What She Said"</button>
+            <button id="view-high-scores">High Scores</button>
         </div>
         <div id="quiz-questions" class="hidden">
             <div id="timer">Time: <span id="time-remaining">60</span></div>
@@ -36,11 +35,11 @@
                 <li></li>
                 <li></li>
                 <li></li>
-
             </ul>
             <form id="score-form">
-                <input type="text" id="initials" placeholder="Enter Initials" maxlength="3" required>
+                <input type="text" id="initials" placeholder="Enter Initials" maxlength="3">
                 <button type="submit" id="submit-score">Submit Score</button>
+                <button tybe="restart" id="restart-quiz">Restart Quiz</button>
             </form>
             <button id="restart-btn" class="hidden">Restart Quiz</button> 
         </div>
