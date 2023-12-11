@@ -98,7 +98,6 @@ function viewHighScores() {
     document.getElementById('quiz-questions').classList.add('hidden');
     document.getElementById('high-scores').classList.remove('hidden');
     document.getElementById('score-form').classList.add('hidden');
-    viewHighScores();
 }
 function loadHighScores() {
     const highScoresList = document.getElementById('scores-list');
