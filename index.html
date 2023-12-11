@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>QUIZ!</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        THE OFFICE TRIVIA
+    </nav>
+    <main>
+        <div id="current-score">Current Score: <span id="score">0</span></div> 
+        <div id="start">
+            <button id="start-btn">Press Here "That's What She Said"</button>
+        </div>
+        <div id="quiz-questions" class="hidden">
+            <div id="timer">Time: <span id="time-remaining">60</span></div>
+            <p id="question"></p>
+            <ul id="choices">
+                <li><button id="q1"></button></li>
+                <li><button id="q2"></button></li>
+                <li><button id="q3"></button></li>
+               
+            </ul>
+        </div>
+        <div id="high-scores" class="hidden">
+            <h2>High Scores</h2>
+            <p id="final-score"></p>
+            <ul id="scores-list">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+
+            </ul>
+            <form id="score-form">
+                <input type="text" id="initials" placeholder="Enter Initials" maxlength="3" required>
+                <button type="submit" id="submit-score">Submit Score</button>
+            </form>
+            <button id="restart-btn" class="hidden">Restart Quiz</button> 
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
